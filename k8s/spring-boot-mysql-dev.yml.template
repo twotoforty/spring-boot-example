@@ -75,4 +75,4 @@ spec:
       name: spring-boot-mysql
   selector:
     app: spring-boot-mysql
-  type: NodePort
+  type: LoadBalancer
