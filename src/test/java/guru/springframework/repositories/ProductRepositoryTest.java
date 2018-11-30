@@ -17,7 +17,7 @@ public class ProductRepositoryTest {
 
     private static final BigDecimal BIG_DECIMAL_100 = BigDecimal.valueOf(100.00);
     private static final String PRODUCT_DESCRIPTION = "a cool product";
-    private static final String IMAGE_URL = "http://an-imageurl.com/image1.jpg";
+    private static final String IMAGE_URL = "https://www.muspells.net/images/linux_proud.gif";
 
     @Autowired
     private ProductRepository productRepository;
