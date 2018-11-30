@@ -2,7 +2,7 @@
 
 TIMEOUT=60
 i=0
-until $(curl --output /dev/null --silent --head --fail http://spring-boot-mysql:8080); do
+until $(curl --connect-timeout 1 --output /dev/null --silent --head --fail http://spring-boot-mysql:8080); do
   printf '.'
   sleep 1
   i=$(expr $i + 1)
