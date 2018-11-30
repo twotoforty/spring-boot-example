@@ -61,6 +61,8 @@ spec:
         env:
           - name: DATABASE
             value: DATABASE_SERVICE_NAME
+        ports:
+          - containerPort: 8080
         readinessProbe:
           tcpSocket:
             port: 8080
