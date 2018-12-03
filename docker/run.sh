@@ -1,4 +1,4 @@
-#!/bin/bash 
+#!/bin/bash -x
 set -eu -o pipefail
 
 DB=${DATABASE:-127.0.0.1}
