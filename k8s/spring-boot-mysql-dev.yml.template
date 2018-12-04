@@ -86,5 +86,5 @@ spec:
       protocol: TCP
       name: spring-boot-mysql
   selector:
-    app: spring-boot-mysql-prod
+    app: spring-boot-mysql
   type: LoadBalancer
