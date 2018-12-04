@@ -60,7 +60,7 @@ spec:
         image: SPRINGBOOT_EXAMPLE_DOCKER_IMAGE
         env:
           - name: DATABASE
-            value: DATABASE_SERVICE_NAME
+            value: mysql-qa
         ports:
           - containerPort: 8080
         readinessProbe:
