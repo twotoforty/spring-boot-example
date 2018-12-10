@@ -46,7 +46,3 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
-
-persistence:
-  enabled: ENABLE_PERSISTENCE
-  storageClass: aws-ebs
