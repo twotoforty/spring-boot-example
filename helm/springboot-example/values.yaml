@@ -13,7 +13,7 @@ nameOverride: ""
 fullnameOverride: ""
 
 service:
-  type: LoadBalancer
+  type: SERVICE_TYPE
   port: 8080
 
 ingress:
@@ -48,5 +48,5 @@ tolerations: []
 affinity: {}
 
 persistence:
-  enabled: true
+  enabled: ENABLE_PERSISTENCE
   storageClass: aws-ebs
